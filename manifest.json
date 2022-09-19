@@ -1,0 +1,27 @@
+{
+    "name" : "Background setter",
+    "description" : "Background setter extension for Chrome",
+    "version" : "1.0",
+    "manifest_version" : 3,
+    "permissions" : [
+        "tabs",
+        "activeTab", 
+        "scripting"
+    ],
+    "icons" : {
+        "128" : "./images/bg128.png",
+        "48" : "./images/bg48.png",
+        "32" : "./images/bg32.png",
+        "16" : "./images/bg16.png"
+    },
+    "content_scripts" : [
+        {
+            "matches" : ["<all_urls>"],
+            "js" : ["script.js"]
+        }
+    ],
+    "chrome_url_overrides" : {
+      "newtab" : "index.html"
+    }
+  }
+  
