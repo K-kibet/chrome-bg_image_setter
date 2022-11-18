@@ -9,10 +9,10 @@
         "scripting"
     ],
     "icons" : {
-        "128" : "./images/bg128.png",
-        "48" : "./images/bg48.png",
-        "32" : "./images/bg32.png",
-        "16" : "./images/bg16.png"
+        "128" : "./images/icon128.png",
+        "48" : "./images/icon48.png",
+        "32" : "./images/icon32.png",
+        "16" : "./images/icon16.png"
     },
     "content_scripts" : [
         {
